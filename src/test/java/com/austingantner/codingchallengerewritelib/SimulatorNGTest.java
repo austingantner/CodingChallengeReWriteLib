@@ -4,7 +4,6 @@
  */
 package com.austingantner.codingchallengerewritelib;
 
-import java.util.Random;
 import static org.testng.Assert.*;
 /*
  import org.testng.annotations.AfterClass;
@@ -47,7 +46,7 @@ public class SimulatorNGTest {
         //just make sure no exceptions were thrown
         //do it alot since this is random
         //I tested this 10 million times at first
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 1000; i++) {
             assertNotNull(Simulator.RandomPlayer());
         }
     }
@@ -58,7 +57,7 @@ public class SimulatorNGTest {
     @Test
     public void testRandomGame_0args() {
         //just make sure no exceptions were thrown
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 10; i++) {
             assertNotNull(Simulator.RandomGame());
         }
     }
@@ -70,7 +69,7 @@ public class SimulatorNGTest {
     public void testRandomGame_int() {
         //just make sure no exceptions were thrown and that
         // it returns null for wrong number of players
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 10; i++) {
             assertNull(Simulator.RandomGame(2));
             assertNotNull(Simulator.RandomGame(3));
             assertNotNull(Simulator.RandomGame(4));

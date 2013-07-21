@@ -57,6 +57,7 @@ public class Simulator {
         //since that would make sense in game
         // (+1 because random can't take 0)
         TempGame.team1Wins = ((rand.nextInt(1 + TempGame.getTeam1Stat("kills") + TempGame.getTeam2Stat("kills"))) <= TempGame.getTeam1Stat("kills"));
+        AchievementEvaluator.evaluateGame(TempGame);
         return TempGame;
     }
 }

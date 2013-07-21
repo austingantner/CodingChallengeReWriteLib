@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">16 methods,   16 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" hash-for-method="testBruiser">testBruiser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" hash-for-method="testEvaluatePlayer">testEvaluatePlayer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -201,6 +206,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testEvaluatePlayer">
+                  </a> <!-- testEvaluatePlayer -->
+                  <span class="method-name">testEvaluatePlayer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testFinishingTouch">
                   </a> <!-- testFinishingTouch -->
                   <span class="method-name">testFinishingTouch</span>
@@ -267,28 +279,6 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.austingantner.codingchallengerewritelib.GameNGTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetTeam1Stat">
-                  </a> <!-- testGetTeam1Stat -->
-                  <span class="method-name">testGetTeam1Stat</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetTeam2Stat">
-                  </a> <!-- testGetTeam2Stat -->
-                  <span class="method-name">testGetTeam2Stat</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.austingantner.codingchallengerewritelib.SimulatorNGTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -311,6 +301,28 @@
                   <a name="testRandomPlayer">
                   </a> <!-- testRandomPlayer -->
                   <span class="method-name">testRandomPlayer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.austingantner.codingchallengerewritelib.GameNGTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTeam1Stat">
+                  </a> <!-- testGetTeam1Stat -->
+                  <span class="method-name">testGetTeam1Stat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTeam2Stat">
+                  </a> <!-- testGetTeam2Stat -->
+                  <span class="method-name">testGetTeam2Stat</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -368,72 +380,76 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testRandomGame_0args')
+data.setCell(0, 1, 'testRandomGame_int')
 data.setCell(0, 2, 'com.austingantner.codingchallengerewritelib.SimulatorNGTest')
-data.setCell(0, 3, 217);
+data.setCell(0, 3, 1636);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testBruiser')
-data.setCell(1, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(1, 3, 188);
+data.setCell(1, 1, 'testRandomGame_0args')
+data.setCell(1, 2, 'com.austingantner.codingchallengerewritelib.SimulatorNGTest')
+data.setCell(1, 3, 1215);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testRandomGame_int')
-data.setCell(2, 2, 'com.austingantner.codingchallengerewritelib.SimulatorNGTest')
-data.setCell(2, 3, 157);
+data.setCell(2, 1, 'testBruiser')
+data.setCell(2, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
+data.setCell(2, 3, 160);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testWingman')
+data.setCell(3, 1, 'testEvaluatePlayer')
 data.setCell(3, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(3, 3, 11);
+data.setCell(3, 3, 36);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testVeteran')
+data.setCell(4, 1, 'testHoudini')
 data.setCell(4, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(4, 3, 11);
+data.setCell(4, 3, 20);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testWorthless')
+data.setCell(5, 1, 'testOneManWreckingCrew')
 data.setCell(5, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(5, 3, 11);
+data.setCell(5, 3, 12);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testOneManWreckingCrew')
+data.setCell(6, 1, 'testVeteran')
 data.setCell(6, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(6, 3, 10);
+data.setCell(6, 3, 12);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testWarrior')
+data.setCell(7, 1, 'testWorthless')
 data.setCell(7, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(7, 3, 8);
+data.setCell(7, 3, 11);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testHoudini')
+data.setCell(8, 1, 'testWingman')
 data.setCell(8, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(8, 3, 7);
+data.setCell(8, 3, 10);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testMageRage')
+data.setCell(9, 1, 'testWarrior')
 data.setCell(9, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
-data.setCell(9, 3, 7);
+data.setCell(9, 3, 8);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testSharpShooter')
+data.setCell(10, 1, 'testFinishingTouch')
 data.setCell(10, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
 data.setCell(10, 3, 7);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testFinishingTouch')
+data.setCell(11, 1, 'testMageRage')
 data.setCell(11, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
 data.setCell(11, 3, 7);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testRandomPlayer')
-data.setCell(12, 2, 'com.austingantner.codingchallengerewritelib.SimulatorNGTest')
-data.setCell(12, 3, 3);
+data.setCell(12, 1, 'testSharpShooter')
+data.setCell(12, 2, 'com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest')
+data.setCell(12, 3, 7);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testGetTeam1Stat')
-data.setCell(13, 2, 'com.austingantner.codingchallengerewritelib.GameNGTest')
+data.setCell(13, 1, 'testRandomPlayer')
+data.setCell(13, 2, 'com.austingantner.codingchallengerewritelib.SimulatorNGTest')
 data.setCell(13, 3, 2);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testGetTeam2Stat')
+data.setCell(14, 1, 'testGetTeam1Stat')
 data.setCell(14, 2, 'com.austingantner.codingchallengerewritelib.GameNGTest')
-data.setCell(14, 3, 0);
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGetTeam2Stat')
+data.setCell(15, 2, 'com.austingantner.codingchallengerewritelib.GameNGTest')
+data.setCell(15, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 646 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -465,66 +481,70 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">testEvaluatePlayer</span>
+                <span class="method-start">161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testFinishingTouch</span>
-                <span class="method-start">189 ms</span>
+                <span class="method-start">198 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testHoudini</span>
-                <span class="method-start">197 ms</span>
+                <span class="method-start">206 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMageRage</span>
-                <span class="method-start">205 ms</span>
+                <span class="method-start">227 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testOneManWreckingCrew</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">235 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testSharpShooter</span>
-                <span class="method-start">224 ms</span>
+                <span class="method-start">247 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testVeteran</span>
-                <span class="method-start">232 ms</span>
+                <span class="method-start">255 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testWarrior</span>
-                <span class="method-start">244 ms</span>
+                <span class="method-start">267 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testWingman</span>
-                <span class="method-start">252 ms</span>
+                <span class="method-start">276 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testWorthless</span>
-                <span class="method-start">264 ms</span>
+                <span class="method-start">287 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.austingantner.codingchallengerewritelib.GameNGTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetTeam1Stat</span>
-                <span class="method-start">276 ms</span>
+                <span class="method-start">298 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetTeam2Stat</span>
-                <span class="method-start">279 ms</span>
+                <span class="method-start">299 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.austingantner.codingchallengerewritelib.SimulatorNGTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testRandomGame_0args</span>
-                <span class="method-start">281 ms</span>
+                <span class="method-start">300 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRandomGame_int</span>
-                <span class="method-start">499 ms</span>
+                <span class="method-start">1515 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRandomPlayer</span>
-                <span class="method-start">656 ms</span>
+                <span class="method-start">3152 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,4 +1,8 @@
 package com.austingantner.codingchallengerewritelib;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author austingantner
@@ -54,7 +58,10 @@ public class Player {
     public int careerSpellDamageDone = 0;
     public int careerSpellDamageTaken = 0;
     public int careerWins = 0;
-
+    
+    public List<Integer> achievementIDs = new ArrayList<Integer>();
+    public List<Integer> careerAchievementIDs = new ArrayList<Integer>();
+    
 //============= CONSTRUCTORS ================
     
     public Player(){}
