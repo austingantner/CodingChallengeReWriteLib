@@ -42,7 +42,7 @@ public class AchievementEvaluator {
     public static void evaluatePlayer(Player player, Game game) {
         for (Achievement a : achievements) {
             if (evaluateAchievement(player, game, a)) {
-                player.achievementIDs.add(a.ID);
+                player.achievements.add(a);
             }
         }
     }

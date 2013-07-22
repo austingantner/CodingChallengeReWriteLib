@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="3.716" errors="0" skipped="0" tests="16" name="TestSuite">
+<testsuite failures="0" time="3.303" errors="0" skipped="0" tests="16" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib"/>
@@ -61,20 +61,20 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.158" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testBruiser"/>
-  <testcase time="0.035" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testEvaluatePlayer"/>
-  <testcase time="0.008" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testFinishingTouch"/>
-  <testcase time="0.018" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testHoudini"/>
-  <testcase time="0.008" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testMageRage"/>
-  <testcase time="0.011" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testOneManWreckingCrew"/>
-  <testcase time="0.008" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testSharpShooter"/>
-  <testcase time="0.011" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testVeteran"/>
-  <testcase time="0.008" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testWarrior"/>
-  <testcase time="0.01" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testWingman"/>
-  <testcase time="0.012" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testWorthless"/>
+  <testcase time="0.13" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testBruiser"/>
+  <testcase time="0.034" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testEvaluatePlayer"/>
+  <testcase time="0.006" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testFinishingTouch"/>
+  <testcase time="0.008" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testHoudini"/>
+  <testcase time="0.007" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testMageRage"/>
+  <testcase time="0.009" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testOneManWreckingCrew"/>
+  <testcase time="0.007" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testSharpShooter"/>
+  <testcase time="0.01" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testVeteran"/>
+  <testcase time="0.007" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testWarrior"/>
+  <testcase time="0.011" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testWingman"/>
+  <testcase time="0.01" classname="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest" name="testWorthless"/>
   <testcase time="0" classname="com.austingantner.codingchallengerewritelib.GameNGTest" name="testGetTeam1Stat"/>
-  <testcase time="0.001" classname="com.austingantner.codingchallengerewritelib.GameNGTest" name="testGetTeam2Stat"/>
-  <testcase time="1.215" classname="com.austingantner.codingchallengerewritelib.SimulatorNGTest" name="testRandomGame_0args"/>
-  <testcase time="1.636" classname="com.austingantner.codingchallengerewritelib.SimulatorNGTest" name="testRandomGame_int"/>
-  <testcase time="0.004" classname="com.austingantner.codingchallengerewritelib.SimulatorNGTest" name="testRandomPlayer"/>
+  <testcase time="0" classname="com.austingantner.codingchallengerewritelib.GameNGTest" name="testGetTeam2Stat"/>
+  <testcase time="1.193" classname="com.austingantner.codingchallengerewritelib.SimulatorNGTest" name="testRandomGame_0args"/>
+  <testcase time="1.52" classname="com.austingantner.codingchallengerewritelib.SimulatorNGTest" name="testRandomGame_int"/>
+  <testcase time="0.002" classname="com.austingantner.codingchallengerewritelib.SimulatorNGTest" name="testRandomPlayer"/>
 </testsuite>

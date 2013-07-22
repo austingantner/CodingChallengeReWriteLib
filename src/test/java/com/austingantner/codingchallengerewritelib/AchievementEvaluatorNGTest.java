@@ -261,7 +261,7 @@ public class AchievementEvaluatorNGTest {
             testPlayer.damageDone = 600;
             testPlayer.CS = 300;
             AchievementEvaluator.evaluatePlayer(testPlayer, testGame);
-            assertTrue(testPlayer.achievementIDs.size() == 2);
+            assertTrue(testPlayer.achievements.size() == 2);
         } catch (Exception ex) {
             fail("failed");
         }

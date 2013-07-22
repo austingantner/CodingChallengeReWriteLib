@@ -11,6 +11,7 @@ import java.util.List;
 public class Player {
 
     public int ID = -1;
+    public String name = "Player";
     //per game stats
     public int attacks = 0;
     public int assists = 0;
@@ -58,9 +59,9 @@ public class Player {
     public int careerSpellDamageDone = 0;
     public int careerSpellDamageTaken = 0;
     public int careerWins = 0;
-    
-    public List<Integer> achievementIDs = new ArrayList<Integer>();
-    public List<Integer> careerAchievementIDs = new ArrayList<Integer>();
+    //todo: change this to achievement
+    public List<Achievement> achievements = new ArrayList<Achievement>();
+    public List<Achievement> careerAchievements = new ArrayList<Achievement>();
     
 //============= CONSTRUCTORS ================
     
@@ -71,11 +72,12 @@ public class Player {
         this.ID = ID;
     }
     
-    public Player(int ID, int attacks, int assists, int CS, int damageDone, int damageTaken,
+    public Player(int ID, String name, int attacks, int assists, int CS, int damageDone, int damageTaken,
                   int deaths, int escapes, int hits, int kills, boolean leave, 
                   int spellsCasted, int spellDamageDone, int spellDamageTaken)
     {
         this.ID = ID;
+        this.name = name;
         this.attacks = attacks;
         this.assists = assists;
         this.CS =CS;
