@@ -5,11 +5,6 @@
 package com.austingantner.codingchallengerewritelib;
 
 import static org.testng.Assert.*;
-/*
- import org.testng.annotations.AfterClass;
- import org.testng.annotations.AfterMethod;
- import org.testng.annotations.BeforeClass;
- import org.testng.annotations.BeforeMethod;*/
 import org.testng.annotations.Test;
 
 /**
@@ -20,23 +15,6 @@ public class SimulatorNGTest {
 
     public SimulatorNGTest() {
     }
-    /*
-     @BeforeClass
-     public static void setUpClass() throws Exception {
-     }
-
-     @AfterClass
-     public static void tearDownClass() throws Exception {
-     }
-
-     @BeforeMethod
-     public void setUpMethod() throws Exception {
-     }
-
-     @AfterMethod
-     public void tearDownMethod() throws Exception {
-     }
-     */
 
     /**
      * Test of RandomPlayer method, of class Simulate.
@@ -46,7 +24,7 @@ public class SimulatorNGTest {
         //just make sure no exceptions were thrown
         //do it alot since this is random
         //I tested this 10 million times at first
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100; i++) {
             assertNotNull(Simulator.RandomPlayer());
         }
     }

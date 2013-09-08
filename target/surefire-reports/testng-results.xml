@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="2981" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:29Z">
+  <suite name="Command line suite" duration-ms="3477" started-at="2013-09-08T17:22:06Z" finished-at="2013-09-08T17:22:10Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2981" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:29Z">
+    <test name="Command line test" duration-ms="3477" started-at="2013-09-08T17:22:06Z" finished-at="2013-09-08T17:22:10Z">
       <class name="com.austingantner.codingchallengerewritelib.GameNGTest">
-        <test-method status="PASS" signature="testGetTeam1Stat()[pri:0, instance:com.austingantner.codingchallengerewritelib.GameNGTest@184f7eba]" name="testGetTeam1Stat" duration-ms="0" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testGetTeam1Stat()[pri:0, instance:com.austingantner.codingchallengerewritelib.GameNGTest@b08f1ce]" name="testGetTeam1Stat" duration-ms="0" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testGetTeam1Stat -->
-        <test-method status="PASS" signature="testGetTeam2Stat()[pri:0, instance:com.austingantner.codingchallengerewritelib.GameNGTest@184f7eba]" name="testGetTeam2Stat" duration-ms="0" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testGetTeam2Stat()[pri:0, instance:com.austingantner.codingchallengerewritelib.GameNGTest@b08f1ce]" name="testGetTeam2Stat" duration-ms="0" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testGetTeam2Stat -->
       </class> <!-- com.austingantner.codingchallengerewritelib.GameNGTest -->
       <class name="com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest">
-        <test-method status="PASS" signature="testBruiser()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testBruiser" duration-ms="132" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testBruiser()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testBruiser" duration-ms="290" started-at="2013-09-08T17:22:06Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testBruiser -->
-        <test-method status="PASS" signature="testEvaluatePlayer()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testEvaluatePlayer" duration-ms="35" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testEvaluatePlayer()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testEvaluatePlayer" duration-ms="33" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testEvaluatePlayer -->
-        <test-method status="PASS" signature="testFinishingTouch()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testFinishingTouch" duration-ms="7" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testFinishingTouch()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testFinishingTouch" duration-ms="7" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testFinishingTouch -->
-        <test-method status="PASS" signature="testHoudini()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testHoudini" duration-ms="8" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testHoudini()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testHoudini" duration-ms="8" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testHoudini -->
-        <test-method status="PASS" signature="testMageRage()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testMageRage" duration-ms="7" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testMageRage()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testMageRage" duration-ms="7" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testMageRage -->
-        <test-method status="PASS" signature="testOneManWreckingCrew()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testOneManWreckingCrew" duration-ms="10" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testOneManWreckingCrew()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testOneManWreckingCrew" duration-ms="10" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testOneManWreckingCrew -->
-        <test-method status="PASS" signature="testSharpShooter()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testSharpShooter" duration-ms="7" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testSharpShooter()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testSharpShooter" duration-ms="8" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testSharpShooter -->
-        <test-method status="PASS" signature="testVeteran()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testVeteran" duration-ms="10" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testVeteran()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testVeteran" duration-ms="11" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testVeteran -->
-        <test-method status="PASS" signature="testWarrior()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testWarrior" duration-ms="7" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testWarrior()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testWarrior" duration-ms="7" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testWarrior -->
-        <test-method status="PASS" signature="testWingman()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testWingman" duration-ms="10" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testWingman()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testWingman" duration-ms="11" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testWingman -->
-        <test-method status="PASS" signature="testWorthless()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@31fdc6f6]" name="testWorthless" duration-ms="10" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:26Z">
+        <test-method status="PASS" signature="testWorthless()[pri:0, instance:com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest@c115a1e]" name="testWorthless" duration-ms="10" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:07Z">
         </test-method> <!-- testWorthless -->
       </class> <!-- com.austingantner.codingchallengerewritelib.AchievementEvaluatorNGTest -->
       <class name="com.austingantner.codingchallengerewritelib.SimulatorNGTest">
-        <test-method status="PASS" signature="testRandomGame_0args()[pri:0, instance:com.austingantner.codingchallengerewritelib.SimulatorNGTest@748ff9a7]" name="testRandomGame_0args" duration-ms="1193" started-at="2013-07-22T17:24:26Z" finished-at="2013-07-22T17:24:27Z">
+        <test-method status="PASS" signature="testRandomGame_0args()[pri:0, instance:com.austingantner.codingchallengerewritelib.SimulatorNGTest@184f7eba]" name="testRandomGame_0args" duration-ms="1118" started-at="2013-09-08T17:22:07Z" finished-at="2013-09-08T17:22:08Z">
         </test-method> <!-- testRandomGame_0args -->
-        <test-method status="PASS" signature="testRandomGame_int()[pri:0, instance:com.austingantner.codingchallengerewritelib.SimulatorNGTest@748ff9a7]" name="testRandomGame_int" duration-ms="1520" started-at="2013-07-22T17:24:27Z" finished-at="2013-07-22T17:24:29Z">
+        <test-method status="PASS" signature="testRandomGame_int()[pri:0, instance:com.austingantner.codingchallengerewritelib.SimulatorNGTest@184f7eba]" name="testRandomGame_int" duration-ms="1931" started-at="2013-09-08T17:22:08Z" finished-at="2013-09-08T17:22:10Z">
         </test-method> <!-- testRandomGame_int -->
-        <test-method status="PASS" signature="testRandomPlayer()[pri:0, instance:com.austingantner.codingchallengerewritelib.SimulatorNGTest@748ff9a7]" name="testRandomPlayer" duration-ms="2" started-at="2013-07-22T17:24:29Z" finished-at="2013-07-22T17:24:29Z">
+        <test-method status="PASS" signature="testRandomPlayer()[pri:0, instance:com.austingantner.codingchallengerewritelib.SimulatorNGTest@184f7eba]" name="testRandomPlayer" duration-ms="0" started-at="2013-09-08T17:22:10Z" finished-at="2013-09-08T17:22:10Z">
         </test-method> <!-- testRandomPlayer -->
       </class> <!-- com.austingantner.codingchallengerewritelib.SimulatorNGTest -->
     </test> <!-- Command line test -->
