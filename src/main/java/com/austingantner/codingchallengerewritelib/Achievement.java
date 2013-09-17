@@ -6,10 +6,10 @@ package com.austingantner.codingchallengerewritelib;
  */
 public class Achievement {
 
-    public int ID;
-    public String name;
-    public String description;
-    public String evalString;
+    public final int ID;
+    public final String name;
+    public final String description;
+    public final String evalString;
 
     public Achievement(int ID, String name, String description, String evalString) {
         this.ID = ID;

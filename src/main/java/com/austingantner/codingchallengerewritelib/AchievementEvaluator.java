@@ -1,5 +1,7 @@
 package com.austingantner.codingchallengerewritelib;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.script.ScriptEngine;
@@ -14,11 +16,15 @@ public class AchievementEvaluator {
     //todo: finish couch potato
     //load from database in future
 
-    public static List<Achievement> achievements = new ArrayList<Achievement>() {
+    public static List<Achievement> achievements = new ArrayList<Achievement>()
+     /*/ Don't have a database? Here are the values manually. 
+      // Just remove the * on the previous line and you should be fine. 
+    {
         {
             add(new Achievement(0, "SharpShooter", "", "'Player.hits'/'Player.attacks'>=.75"));
             add(new Achievement(1, "Bruiser", "", "'Player.damageDone'>=500"));
             add(new Achievement(2, "Veteran", "", "'Player.careerLosses'+'Player.careerWins'==999"));
+            //still needs to be implemented
             //add(new Achievement(3, "CouchPotato", "", "'Player.careerLosses'+'Player.careerWins'==999"));
             add(new Achievement(4, "MageRage", "", "'Player.spellDamageDone'>=500"));
             add(new Achievement(5, "OneManWreckingCrew", "", "'Player.careerKills'<5000 && 'Player.kills'+'Player.careerKills'>=5000"));
@@ -28,9 +34,28 @@ public class AchievementEvaluator {
             add(new Achievement(9, "Houdini", "", "'Player.escapes'>'Player.deaths'"));
             add(new Achievement(10, "Warrior", "", "'Player.kills'>0 && 'Player.kills'>=2*'Player.deaths'"));
         }
-    };
+    };//*/;
+    
+    private static void populateAchievements(){
+        ConnectionManager.ResultSetHandler handler = new ConnectionManager.ResultSetHandler(){
+            public void Handle(ResultSet rs) throws SQLException{
+                while(rs.next()){
+                    achievements.add(new Achievement(
+                            rs.getInt("id"),
+                            rs.getString("name"),
+                            rs.getString("description"),
+                            rs.getString("evalString")
+                            ));
+                }
+            }
+        };
+        ConnectionManager.Query("Select * from Achievements", handler);
+    }
 
     public static void evaluateGame(Game game) {
+        if(achievements.isEmpty()){
+            populateAchievements();
+        }
         for (Player p : game.team1) {
             evaluatePlayer(p, game);
         }
@@ -40,6 +65,9 @@ public class AchievementEvaluator {
     }
 
     public static void evaluatePlayer(Player player, Game game) {
+        if(achievements.isEmpty()){
+            populateAchievements();
+        }
         for (Achievement a : achievements) {
             if (evaluateAchievement(player, game, a)) {
                 player.achievements.add(a);
@@ -47,7 +75,7 @@ public class AchievementEvaluator {
         }
     }
 
-    //not terribly secure but fairly well sandboxed and very extendable
+    //not terribly secure but fairly well sandboxed and very extendable.
     //besides, reflection is fun
     public static boolean evaluateAchievement(Player player, Game game, Achievement achievement) {
         try {
@@ -65,7 +93,7 @@ public class AchievementEvaluator {
 
             ScriptEngineManager mgr = new ScriptEngineManager();
             ScriptEngine engine = mgr.getEngineByName("JavaScript");
-
+            //todo: upload achievement to database here
             return (Boolean) engine.eval(evalString);
 
         } catch (Exception ex) {

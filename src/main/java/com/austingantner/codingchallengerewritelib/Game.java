@@ -15,7 +15,7 @@ public class Game {
     public List<Player> team1 = new ArrayList<Player>();
     public List<Player> team2 = new ArrayList<Player>();
 
-    //reflection might not be the safest solution but its fun so I did it anyway Lol
+    //reflection might not be the safest solution but its fun so I did it anyway
     public int getTeam1Stat(String statName) {
         try {
             int stat = 0;
