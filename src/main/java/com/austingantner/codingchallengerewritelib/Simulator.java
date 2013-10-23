@@ -129,7 +129,7 @@ public class Simulator {
     static public List<Integer> GetRandomIDs(int numPlayers) {
         List<Integer> RandIDs = new ArrayList<Integer>();
         //todo: replace this loop with a list of ID's from database
-        for (int i = 1; i <= 15; i++) {
+        for (int i = 1; i <= 16; i++) {
             RandIDs.add(i);
         }
         Collections.shuffle(RandIDs);

@@ -71,7 +71,7 @@ public class AchievementEvaluatorNGTest {
             fail("failed");
         }
     }
-/*
+/*//todo: implement CouchPotato
     @Test
     public void testCouchPotato() {
         try {

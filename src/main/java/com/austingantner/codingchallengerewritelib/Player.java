@@ -64,7 +64,6 @@ public class Player {
     public int careerSpellDamageDone = 0;
     public int careerSpellDamageTaken = 0;
     public int careerWins = 0;
-    //todo: change this to achievement
     public List<Achievement> achievements = new ArrayList<Achievement>();
     public List<Achievement> careerAchievements = new ArrayList<Achievement>();
 
